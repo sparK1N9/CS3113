@@ -1,0 +1,9 @@
+﻿  main.cpp
+c:\users\spark1n9\desktop\cs3113\cs3113\nyucodebase\main.cpp(55): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\spark1n9\desktop\cs3113\cs3113\nyucodebase\main.cpp(57): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\spark1n9\desktop\cs3113\cs3113\nyucodebase\main.cpp(110): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\spark1n9\desktop\cs3113\cs3113\nyucodebase\main.cpp(114): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\spark1n9\desktop\cs3113\cs3113\nyucodebase\main.cpp(120): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spark1n9\desktop\cs3113\cs3113\nyucodebase\main.cpp(125): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  NYUCodebase.vcxproj -> C:\Users\sparK1N9\Desktop\CS3113\CS3113\Debug\NYUCodebase.exe
+  NYUCodebase.vcxproj -> C:\Users\sparK1N9\Desktop\CS3113\CS3113\Debug\NYUCodebase.pdb (Full PDB)

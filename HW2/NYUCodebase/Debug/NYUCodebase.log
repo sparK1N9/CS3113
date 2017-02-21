@@ -1,0 +1,13 @@
+﻿  main.cpp
+c:\users\spark1n9\desktop\cs3113\cs3113\hw2\nyucodebase\main.cpp(60): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\spark1n9\desktop\cs3113\cs3113\hw2\nyucodebase\main.cpp(63): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\spark1n9\desktop\cs3113\cs3113\hw2\nyucodebase\main.cpp(91): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+c:\users\spark1n9\desktop\cs3113\cs3113\hw2\nyucodebase\main.cpp(91): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\spark1n9\desktop\cs3113\cs3113\hw2\nyucodebase\main.cpp(122): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\spark1n9\desktop\cs3113\cs3113\hw2\nyucodebase\main.cpp(123): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\spark1n9\desktop\cs3113\cs3113\hw2\nyucodebase\main.cpp(127): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\spark1n9\desktop\cs3113\cs3113\hw2\nyucodebase\main.cpp(128): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\spark1n9\desktop\cs3113\cs3113\hw2\nyucodebase\main.cpp(134): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spark1n9\desktop\cs3113\cs3113\hw2\nyucodebase\main.cpp(139): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  NYUCodebase.vcxproj -> C:\Users\sparK1N9\Desktop\CS3113\CS3113\HW2\Debug\NYUCodebase.exe
+  NYUCodebase.vcxproj -> C:\Users\sparK1N9\Desktop\CS3113\CS3113\HW2\Debug\NYUCodebase.pdb (Full PDB)
