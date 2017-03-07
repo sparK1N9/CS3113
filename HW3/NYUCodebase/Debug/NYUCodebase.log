@@ -1,0 +1,6 @@
+﻿  main.cpp
+c:\users\spark1n9\desktop\cs3113\cs3113\hw3\nyucodebase\main.cpp(110): warning C4018: '<': signed/unsigned mismatch
+c:\users\spark1n9\desktop\cs3113\cs3113\hw3\nyucodebase\main.cpp(312): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\spark1n9\desktop\cs3113\cs3113\hw3\nyucodebase\main.cpp(315): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  NYUCodebase.vcxproj -> C:\Users\sparK1N9\Desktop\CS3113\CS3113\HW3\Debug\NYUCodebase.exe
+  NYUCodebase.vcxproj -> C:\Users\sparK1N9\Desktop\CS3113\CS3113\HW3\Debug\NYUCodebase.pdb (Full PDB)
