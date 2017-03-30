@@ -1,0 +1,8 @@
+﻿  main.cpp
+c:\users\spark1n9\desktop\cs3113\cs3113\hw4\nyucodebase\main.cpp(49): warning C4018: '<': signed/unsigned mismatch
+c:\users\spark1n9\desktop\cs3113\cs3113\hw4\nyucodebase\main.cpp(94): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+c:\users\spark1n9\desktop\cs3113\cs3113\hw4\nyucodebase\main.cpp(100): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\spark1n9\desktop\cs3113\cs3113\hw4\nyucodebase\main.cpp(112): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+c:\users\spark1n9\desktop\cs3113\cs3113\hw4\nyucodebase\main.cpp(118): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  NYUCodebase.vcxproj -> C:\Users\sparK1N9\Desktop\CS3113\CS3113\HW4\Debug\NYUCodebase.exe
+  NYUCodebase.vcxproj -> C:\Users\sparK1N9\Desktop\CS3113\CS3113\HW4\Debug\NYUCodebase.pdb (Full PDB)
