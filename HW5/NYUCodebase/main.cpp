@@ -81,7 +81,7 @@ bool testSATSeparationForEdge(float edgeX, float edgeY, const std::vector<Vector
 
 	float penetrationAmount = penetrationMin1;
 	if (penetrationMin2 < penetrationAmount) {
-		penetrationAmount = -penetrationMin2;
+		penetrationAmount = penetrationMin2;
 	}
 
 	penetration.x = normalX * penetrationAmount;
@@ -136,6 +136,32 @@ bool checkSATCollision(const std::vector<Vector> &e1Points, const std::vector<Ve
 
 	std::sort(penetrations.begin(), penetrations.end(), penetrationSort);
 	penetration = penetrations[0];
+
+	Vector e1Center;
+	for (int i = 0; i < e1Points.size(); i++) {
+		e1Center.x += e1Points[i].x;
+		e1Center.y += e1Points[i].y;
+	}
+	e1Center.x /= (float)e1Points.size();
+	e1Center.y /= (float)e1Points.size();
+
+	Vector e2Center;
+	for (int i = 0; i < e2Points.size(); i++) {
+		e2Center.x += e2Points[i].x;
+		e2Center.y += e2Points[i].y;
+	}
+	e2Center.x /= (float)e2Points.size();
+	e2Center.y /= (float)e2Points.size();
+
+	Vector ba;
+	ba.x = e1Center.x - e2Center.x;
+	ba.y = e1Center.y - e2Center.y;
+
+	if ((penetration.x * ba.x) + (penetration.y * ba.y) < 0.0f) {
+		penetration.x *= -1.0f;
+		penetration.y *= -1.0f;
+	}
+
 	return true;
 }
 
@@ -256,14 +282,16 @@ int main(int argc, char *argv[])
 		rock1.toWorldCoord(worldCoord2);
 		rock2.toWorldCoord(worldCoord3);
 		if (checkSATCollision(worldCoord1, worldCoord2, penetration)) {
-			rock1.matrix.Translate(penetration.x, penetration.y, 0);
+			rock1.matrix.Translate(-penetration.x*0.5f, -penetration.y*0.5f, 0);
+			player.matrix.Translate(penetration.x*0.5f, penetration.y*0.5f, 0);
 		}
 		if (checkSATCollision(worldCoord1, worldCoord3, penetration)) {
-			rock2.matrix.Translate(penetration.x, penetration.y, 0);
+			rock2.matrix.Translate(-penetration.x*0.5f, -penetration.y*0.5f, 0);
+			player.matrix.Translate(penetration.x*0.5f, penetration.y*0.5f, 0);
 		}
 		if (checkSATCollision(worldCoord2, worldCoord3, penetration)) {
-			rock1.matrix.Translate(-penetration.x*0.5f, -penetration.y*0.5f, 0);
-			rock2.matrix.Translate(penetration.x*0.5f, penetration.y*0.5f, 0);
+			rock1.matrix.Translate(penetration.x*0.5f, penetration.y*0.5f, 0);
+			rock2.matrix.Translate(-penetration.x*0.5f, -penetration.y*0.5f, 0);
 		}
 		if (keys[SDL_SCANCODE_D]) {
 			player.acceleration_x = 3;
