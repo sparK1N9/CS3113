@@ -1,0 +1,16 @@
+﻿  main.cpp
+c:\users\spark1n9\desktop\cs3113\final (wip)\nyucodebase\particlesys.h(26): warning C4018: '<': signed/unsigned mismatch
+c:\users\spark1n9\desktop\cs3113\final (wip)\nyucodebase\particlesys.h(33): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\spark1n9\desktop\cs3113\final (wip)\nyucodebase\particlesys.h(52): warning C4018: '<': signed/unsigned mismatch
+c:\users\spark1n9\desktop\cs3113\final (wip)\nyucodebase\main.cpp(61): warning C4018: '<': signed/unsigned mismatch
+c:\users\spark1n9\desktop\cs3113\final (wip)\nyucodebase\main.cpp(64): warning C4018: '<': signed/unsigned mismatch
+c:\users\spark1n9\desktop\cs3113\final (wip)\nyucodebase\main.cpp(78): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\spark1n9\desktop\cs3113\final (wip)\nyucodebase\main.cpp(79): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\spark1n9\desktop\cs3113\final (wip)\nyucodebase\main.cpp(81): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\spark1n9\desktop\cs3113\final (wip)\nyucodebase\main.cpp(107): warning C4018: '<': signed/unsigned mismatch
+c:\users\spark1n9\desktop\cs3113\final (wip)\nyucodebase\main.cpp(125): warning C4018: '<': signed/unsigned mismatch
+c:\users\spark1n9\desktop\cs3113\final (wip)\nyucodebase\main.cpp(149): warning C4018: '<': signed/unsigned mismatch
+c:\users\spark1n9\desktop\cs3113\final (wip)\nyucodebase\main.cpp(157): warning C4018: '<': signed/unsigned mismatch
+c:\users\spark1n9\desktop\cs3113\final (wip)\nyucodebase\main.cpp(180): warning C4018: '<': signed/unsigned mismatch
+  NYUCodebase.vcxproj -> C:\Users\sparK1N9\Desktop\CS3113\Final (WIP)\Debug\NYUCodebase.exe
+  NYUCodebase.vcxproj -> C:\Users\sparK1N9\Desktop\CS3113\Final (WIP)\Debug\NYUCodebase.pdb (Full PDB)

@@ -124,7 +124,7 @@ void YCollision(Entity& entity, unsigned char** levelData, vector<int>& solid) {
 int main(int argc, char *argv[])
 {
 	SDL_Init(SDL_INIT_VIDEO);
-	displayWindow = SDL_CreateWindow("The Game", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 1280, 720, SDL_WINDOW_OPENGL);
+	displayWindow = SDL_CreateWindow("Mirror Force", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 1280, 720, SDL_WINDOW_OPENGL);
 	SDL_GLContext context = SDL_GL_CreateContext(displayWindow);
 	SDL_GL_MakeCurrent(displayWindow, context);
 #ifdef _WINDOWS
@@ -153,7 +153,7 @@ int main(int argc, char *argv[])
 		YCollision(gem, map.levelData, solids);
 	}
 	while (!done) {
-		const Uint8 *keys = SDL_GetKeyboardState(NULL); // left and right arrow to move, space to jump
+		const Uint8 *keys = SDL_GetKeyboardState(NULL);
 		while (SDL_PollEvent(&event)) {
 			if (event.type == SDL_QUIT || event.type == SDL_WINDOWEVENT_CLOSE) {
 				done = true;
